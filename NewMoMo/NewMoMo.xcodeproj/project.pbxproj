@@ -15,6 +15,7 @@
 		5B81E90F1EF7DF5100054948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B81E90D1EF7DF5100054948 /* LaunchScreen.storyboard */; };
 		5B81E91A1EF7DF5100054948 /* NewMoMoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81E9191EF7DF5100054948 /* NewMoMoTests.m */; };
 		5B81E9251EF7DF5100054948 /* NewMoMoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81E9241EF7DF5100054948 /* NewMoMoUITests.m */; };
+		5B81E9341EF7E20D00054948 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81E9331EF7E20D00054948 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5B81E9201EF7DF5100054948 /* NewMoMoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewMoMoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81E9241EF7DF5100054948 /* NewMoMoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewMoMoUITests.m; sourceTree = "<group>"; };
 		5B81E9261EF7DF5100054948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B81E9321EF7E20D00054948 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5B81E9331EF7E20D00054948 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5B81E90D1EF7DF5100054948 /* LaunchScreen.storyboard */,
 				5B81E9101EF7DF5100054948 /* Info.plist */,
 				5B81E8FF1EF7DF5100054948 /* Supporting Files */,
+				5B81E9321EF7E20D00054948 /* Person.h */,
+				5B81E9331EF7E20D00054948 /* Person.m */,
 			);
 			path = NewMoMo;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				5B81E9071EF7DF5100054948 /* ViewController.m in Sources */,
 				5B81E9041EF7DF5100054948 /* AppDelegate.m in Sources */,
+				5B81E9341EF7E20D00054948 /* Person.m in Sources */,
 				5B81E9011EF7DF5100054948 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				5B81E92B1EF7DF5100054948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B81E92C1EF7DF5100054948 /* Build configuration list for PBXNativeTarget "NewMoMoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				5B81E92E1EF7DF5100054948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B81E92F1EF7DF5100054948 /* Build configuration list for PBXNativeTarget "NewMoMoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				5B81E9311EF7DF5100054948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
